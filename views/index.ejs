@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/MyStyle.css' />
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  </head>
+  <body>
+   <!-- <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p> -->
+    <div class="container">
+  
+    <div class="mycalss" id="mydiv">
+     <video id="video" width="400" height="300" autoplay></video>
+     <canvas id="canvas" width="400" height="300"></canvas>
+     <a href="#" id="capture1" onclick="takeit()" class="capture1">Prendre une Photo </a>
+     <span id="countdown" style="font-size: 12px">4</span>
+   
+     <a id="download" download="image.png"><button type="button" onClick="download()"> Telecharger </button></a>
+       <img id="monimage" style="display: none"> 
+    </div>
+    
+    <div class="mycalss1" id="mydiv2" >
+      <label>blur</label>
+    <input type="range" min="0" max="100" value="0" step="0.5" onchange="applyFilter()" data-filter="blur" data-scale="px"><br>
+    <label>Brithness</label>
+    <input type="range" min="0" max="200" value="100" step="1" onchange="applyFilter()" data-filter="brightness" data-scale="%"><br>
+    <label>Contrast</label>
+    <input type="range" min="0" max="200" value="100" step="1" onchange="applyFilter()" data-filter="contrast" data-scale="%"><br>
+    <label>Greyscale</label>
+    <input type="range" min="0" max="100" value="0" step="1" onchange="applyFilter()" data-filter="grayscale" data-scale="%"><br>
+    <label>Hue Rotate</label>
+    <input type="range" min="0" max="360" value="0" step="1" onchange="applyFilter()" data-filter="hue-rotate" data-scale="deg"><br>
+    <label>Invert</label>
+    <input type="range" min="0" max="100" value="0" step="1" onchange="applyFilter()" data-filter="invert" data-scale="%"><br>
+    <label>Opacity</label>
+    <input type="range" min="0" max="100" value="100" step="1" onchange="applyFilter()" data-filter="opacity" data-scale="%"><br>
+    <label>saturate</label>
+    <input type="range" min="1" max="100" value="1" step="1" onchange="applyFilter()" data-filter="saturate" data-scale=""><br>
+    <label>sepia</label>
+    <input type="range" min="0" max="100" value="0" step="1" onchange="applyFilter()" data-filter="sepia" data-scale="%"><br>
+    <label>Width</label>  <input type="text" id="width" >
+    <label>height</label>  <input type="text" id="height" >
+    <button class="btn btn-info" onclick="modifier()"> Modifier</button>
+    </div>
+    </div>
+
+ 
+    <a href="#" onclick="clickme()"  class="btn btn-info btn-lg" id="camera">
+      <i class="fab fa-instagram"> Camera </i>
+    </a>
+
+   <script src="javascripts/picture.js"></script>
+  </body>
+</html>

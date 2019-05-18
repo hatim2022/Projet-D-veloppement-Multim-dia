@@ -1,0 +1,32 @@
+.mycalss{
+    display: none;
+    width: 422px;
+    background: #ccc;
+    border: 10px solid #ddd;
+    margin:0 auto;
+    float: left  !important;
+  }
+  .mycalss1 {
+    display: none;
+    width: 664px;
+    background: #ccc;
+    border: 10px solid #ddd;
+    margin: 0 auto;
+    float: right;
+   
+}
+input[type=range] {
+
+    float: right !important; 
+}
+
+  .capture1{
+      display: block;
+      margin: 10px 0;
+      padding: 10px 20px;
+      background-color: cornflowerblue;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      
+  }

@@ -27,23 +27,7 @@ Une fois le téléchargement terminé, installez le package comme n'importe quel
  $ cd myapp.
  
  dossier du projet 
- 
- 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+ ![](pic1.png)<br>
 
 ## Running the tests
 

@@ -27,6 +27,8 @@ Une fois le téléchargement terminé, installez le package comme n'importe quel
  $ cd myapp.
  
  dossier du projet 
+ 
+ 
  ![](pic1.png)<br>
 
 ## Running the tests

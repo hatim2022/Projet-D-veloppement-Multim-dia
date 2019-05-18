@@ -31,48 +31,58 @@ Une fois le téléchargement terminé, installez le package comme n'importe quel
  
  ## Running the tests
  
- ![](pic1.png)<br>
+ ![](image/pic1.png)<br>
  
 lancement de l'application
 
- ![](pic2.png)<br>
+ ![](image/pic2.png)<br>
  
 page d'accueil l'utilisateur doit cliquer sur l'icon pour commencer .
 
- ![](pic3.png)<br>
+ ![](image/pic3.png)<br>
  
 l'utilisateur doit cliquer sur prendre une photo ensuit apres 3 seconds la photo va être pris
 
- ![](pic4.png)<br>
+ ![](image/pic4.png)<br>
 
 Photo pris avec succes 
 
-![](pic6.png)<br>
+![](image/pic6.png)<br>
 
 telechargement de l'image (l'utilisateur doit cliquer sur telecharger l'image)
 
-![](pic7.png)<br>
+![](image/pic7.png)<br>
 
 ouverture de l'image sur windows photo
 
-![](pic8.png)<br>
+![](image/pic8.png)<br>
 
 ### Application des filtres sur la photo 
 
 L'utilisateur peut ajouter plusieurs filtre a la photo 
 
-![](pic11.png)<br>
+![](image/pic11.png)<br>
 
 Enregistement de l'image filtrer
-![](pic12.png)<br>
-![](pic13.png)<br>
+![](image/pic12.png)<br>
+![](image/pic13.png)<br>
 
 
 
 
 ### Code et functions
 
+function de depart 
+![](image/fct1.png)<br>
 
+function de telechargement 
+![](image/fct2.png)<br>
+
+function apply filter
+![](image/fct3.png)<br>
+
+partie du html
+![](image/fct4.png)<br>
 
 
 ## Versioning

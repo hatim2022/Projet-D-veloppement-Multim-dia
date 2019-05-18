@@ -8,8 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
- Node.js
- 
+ Node.js<br>
  npm
 
 
@@ -19,13 +18,13 @@ Allez sur la page officielle de Node.js et téléchargez le package d'installati
 
 Une fois le téléchargement terminé, installez le package comme n'importe quelle autre application sur votre Mac ou PC.
 
- installation de express
- il faut tapez la commande : 
- $ npm install express-generator -g
+ installation de express<br>
+ il faut tapez la commande : <br>
+ $ npm install express-generator -g <br>
  
- $ express -v ejs -c sass myapp. Dans cet exemple, myapp sera le nom de votre projet.
- ensuit 
- $ cd myapp.
+ $ express -v ejs -c sass myapp. Dans cet exemple, myapp sera le nom de votre projet.<br>
+ ensuit <br>
+ $ cd myapp.<br>
  
  dossier du projet 
  

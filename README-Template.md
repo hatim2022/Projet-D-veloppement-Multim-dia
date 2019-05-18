@@ -1,6 +1,6 @@
-# Project Title
+# Projet Développement Multimédia
 
-One Paragraph of project description goes here
+ce module va permettre a l’utilisateur de capturer une photo depuis la camera de son pc  . Ce module sera utilisable dans les applications Web, Mobiles hybrides et Desktop basées sur les technologies WEB.
 
 ## Getting Started
 
@@ -8,14 +8,27 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+ Node.js
+ npm
 
-```
-Give examples
-```
 
 ### Installing
+installation de Nodejs
+Allez sur la page officielle de Node.js et téléchargez le package d'installation correspondant à votre système d'exploitation. Utilisez la version LTS et non la version actuelle.
 
+Une fois le téléchargement terminé, installez le package comme n'importe quelle autre application sur votre Mac ou PC.
+
+ installation de express
+ il faut tapez la commande : 
+ $ npm install express-generator -g
+ 
+ $ express -v ejs -c sass myapp. Dans cet exemple, myapp sera le nom de votre projet.
+ ensuit 
+ $ cd myapp.
+ 
+ dossier du projet 
+ 
+ 
 A step by step series of examples that tell you how to get a development env running
 
 Say what the step will be
